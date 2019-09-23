@@ -7,27 +7,9 @@ function setup() {
   createCanvas(windowWidth,windowHeight);
  angleMode(DEGREES);
  frameRate(30);
- background("black");
+ background("darkblue");
  translate(400,height/2)
-noStroke();
-fill("black")
-ellipse(0,0, width/5, width/5)
-noStroke();
-translate(200,0)
-noStroke();
-fill("black")
-ellipse(0,0, width/5, width/5)
-noStroke();
-translate(200,0)
-noStroke();
-fill("black")
-ellipse(0,0, width/5, width/5)
-noStroke();
-translate(200,0)
-noStroke();
-fill("black")
-ellipse(0,0, width/5, width/5)
-noStroke();
+
 
 
 
@@ -36,7 +18,7 @@ noStroke();
 function draw() {
   // put drawing code here
 
-
+background(000,0,0,30)
   translate(400,height/2)
 push()
  stroke(lerpColor(color('orange'), color('red'),frameCount/10));
@@ -419,11 +401,7 @@ translate(0,-200)
  stroke(lerpColor(color('red'), color('darkorange'),frameCount/10));
 rotate(180);
  line(-width/10,0,-(cos (frameCount*5)*width/10),-(sin (frameCount*5)*width/10));
- if(frameCount==144)
- noLoop();
- noFill()
- if(frameCount==144)
- noLoop();
- noFill()
+
+
 pop()
 }
