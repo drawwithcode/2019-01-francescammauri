@@ -95,6 +95,14 @@ push()
           line(40,40,10,10);
         pop()
         push()
+          translate(1100,-300)
+          rotate(frameCount*5);
+           noFill();
+           stroke("grey");
+           line(40,40,10,10);
+         pop()
+
+        push()
         translate(-400, -150)
         rotate(frameCount*5);
          noFill();
@@ -164,7 +172,13 @@ push()
                   stroke("grey");
                   line(40,40,10,10);
                 pop()
-
+                push()
+                  translate(1100,-150)
+                  rotate(frameCount*5);
+                   noFill();
+                   stroke("grey");
+                   line(40,40,10,10);
+                 pop()
 push()
 translate(200,0);
  stroke(lerpColor(color('red'), color('orange'),frameCount/10));
@@ -240,6 +254,13 @@ translate(200,0);
               line(40,40,10,10);
             pop()
             push()
+              translate(900,-0)
+              rotate(frameCount*5);
+               noFill();
+               stroke("grey");
+               line(40,40,10,10);
+             pop()
+            push()
               translate(-600,150)
               rotate(frameCount*5);
                noFill();
@@ -309,6 +330,13 @@ translate(200,0);
                         stroke("grey");
                         line(40,40,10,10);
                       pop()
+                      push()
+                        translate(900,150)
+                        rotate(frameCount*5);
+                         noFill();
+                         stroke("grey");
+                         line(40,40,10,10);
+                       pop()
 translate(200,0);
  stroke(lerpColor(color('orange'), color('red'),frameCount/10));
 rotate(90);
@@ -383,6 +411,13 @@ rotate(90);
                  stroke("grey");
                  line(40,40,10,10);
                pop()
+               push()
+                 translate(300, -700)
+                 rotate(frameCount*5);
+                  noFill();
+                  stroke("grey");
+                  line(40,40,10,10);
+                pop()
 
 
 translate(0,-200)
