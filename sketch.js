@@ -390,13 +390,7 @@ rotate(90);
                    stroke("grey");
                    line(40,40,10,10);
                  pop()
-                 push()
-                   translate(300, -850)
-                   rotate(frameCount*5);
-                    noFill();
-                    stroke("grey");
-                    line(40,40,10,10);
-                  pop()
+
 translate(0,-200)
  stroke(lerpColor(color('red'), color('darkorange'),frameCount/10));
 rotate(180);
