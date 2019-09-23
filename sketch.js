@@ -383,19 +383,11 @@ rotate(90);
                  stroke("grey");
                  line(40,40,10,10);
                pop()
-               push()
-                  translate(300, -700)
-                  rotate(frameCount*5);
-                   noFill();
-                   stroke("grey");
-                   line(40,40,10,10);
-                 pop()
+
 
 translate(0,-200)
  stroke(lerpColor(color('red'), color('darkorange'),frameCount/10));
 rotate(180);
  line(-width/10,0,-(cos (frameCount*5)*width/10),-(sin (frameCount*5)*width/10));
 
-
-pop()
 }
